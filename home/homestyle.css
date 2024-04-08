@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: absolute;
+    background-color: #515598;
+    width: 100%;    
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.logo-1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 30px;
+    column-gap: 10px;
+    color: #FFF;
+}
+.box-booking{
+    position: relative;
+    margin-left: 900px;
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.box-booking a{
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+}
+.menu-home{
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color: beige;
+}
+.menu-home .list-menu .parents {
+    display: grid;
+    grid-template-columns: repeat(6,16.6%);
+    text-align: center;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+.parents li a{
+    color: #000;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;      
+    row-gap: 20px;
+    text-align: left;
+}
+.parents .son li a{
+    display: grid;
+    font-size: 10px;
+}
+.parents .son{
+    margin-top: 10px;
+    width: 150px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: repeat(3,33.33%);
+    display: none;
+}
+.parents .Book:hover .son{
+    display: grid;
+}
+.parents .plan .menu-after .row{
+    margin-left: -700px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    margin-top: 20px;
+    column-gap: 100px;
+    background-color: beige;
+    display: none;
+}
+h5{
+    color: #000;
+    font-size: large;
+}
+.parents .plan .s-item ul li a{
+    display: grid;
+    height: auto;
+    padding-top: 15px;
+    font-weight:normal;
+    font-size: 10px;
+}
+.parents .plan:hover .menu-after .row{
+    display: grid;
+} 
+.search input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.search button{
+    cursor: pointer;
+}
